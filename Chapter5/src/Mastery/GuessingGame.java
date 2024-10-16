@@ -1,3 +1,17 @@
+
+/*
+Ahamid Adam
+Program:  GuessingGame_Mastery.java          Date: October 16, 2024
+
+
+Purpose: An application that Lets the user guess for a secret number.
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
 package Mastery;
 
 import java.util.Random;
@@ -35,9 +49,19 @@ public class GuessingGame {
         // Close the scanner to avoid resource leak
         scanner.close();
     }
-}
 
-          
+}
+         
+/* Screen Dump
+
+Guess a number between 1 and 20: 1
+Try again.
+Guess a number between 1 and 20: 2
+Congratulations! You guessed the correct number!
+
+
+
+*/
         
 
        

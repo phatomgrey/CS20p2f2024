@@ -1,3 +1,16 @@
+/*
+Ahamid Adam
+Program: PrimeNumber_Mastery.java          Date: October 15, 2024
+
+
+Purpose: An application that Gets the prime number in between two values.
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
 package Mastery;
 
 import java.util.Scanner;
@@ -40,3 +53,23 @@ public class PrimeNumber {
         return true; // If no divisors, the number is prime
     }
 }
+
+
+/* Screen Dump
+
+Enter the starting number: 1
+Enter the ending number: 25
+Prime numbers between 1 and 25:
+2
+3
+5
+7
+11
+13
+17
+19
+23
+
+
+
+*/
