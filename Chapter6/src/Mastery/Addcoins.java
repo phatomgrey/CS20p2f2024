@@ -1,3 +1,19 @@
+/*
+Ahamid Adam
+Program: Addcoins_Mastery.java          Date: October 29, 2024
+
+
+Purpose: An application that takes a amount of coins and gets a dollar amount.
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
+
+
 package Mastery;
 
 import java.util.Scanner;
@@ -36,3 +52,14 @@ public class Addcoins {
         return String.format("$%.2f", total);
     }
 }
+
+/* Screen Dump
+
+Enter the number of pennies: 20
+Enter the number of nickels: 27
+Enter the number of dimes: 35
+Enter the number of quarters: 37
+Total dollar amount: $14.30
+
+
+*/
