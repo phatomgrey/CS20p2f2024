@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class MetricConversion {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int choice;
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object for user input
+        int choice; // Variable to store user's menu choice
 
-        // Display the menu
+        // Display the menu and prompt the user to choose a conversion option
         do {
             System.out.println("Metric Conversion Menu:");
             System.out.println("1. Inches to Centimeters");
@@ -27,95 +27,124 @@ public class MetricConversion {
             System.out.println("8. Kilometers to Miles");
             System.out.println("9. Exit");
             System.out.print("Choose an option (1-9): ");
-            choice = scanner.nextInt();
+            choice = scanner.nextInt(); // Read the user's choice
 
-            // Handle user choice
+            // Switch statement to handle each conversion option
             switch (choice) {
                 case 1:
+                    // Inches to Centimeters conversion
                     System.out.print("Enter inches: ");
                     double inches = scanner.nextDouble();
                     System.out.println(inches + " inches = " + inchesToCentimeters(inches) + " centimeters");
                     break;
                 case 2:
+                    // Centimeters to Inches conversion
                     System.out.print("Enter centimeters: ");
                     double cmToInches = scanner.nextDouble();
                     System.out.println(cmToInches + " centimeters = " + centimetersToInches(cmToInches) + " inches");
                     break;
-                case 3:
+                case 3:A
+                    // Feet to Centimeters conversion
                     System.out.print("Enter feet: ");
                     double feet = scanner.nextDouble();
                     System.out.println(feet + " feet = " + feetToCentimeters(feet) + " centimeters");
                     break;
                 case 4:
+                    // Centimeters to Feet conversion
                     System.out.print("Enter centimeters: ");
                     double cmToFeet = scanner.nextDouble();
                     System.out.println(cmToFeet + " centimeters = " + centimetersToFeet(cmToFeet) + " feet");
                     break;
                 case 5:
+                    // Yards to Meters conversion
                     System.out.print("Enter yards: ");
                     double yards = scanner.nextDouble();
                     System.out.println(yards + " yards = " + yardsToMeters(yards) + " meters");
                     break;
                 case 6:
+                    // Meters to Yards conversion
                     System.out.print("Enter meters: ");
                     double metersToYards = scanner.nextDouble();
                     System.out.println(metersToYards + " meters = " + metersToYards(metersToYards) + " yards");
                     break;
                 case 7:
+                    // Miles to Kilometers conversion
                     System.out.print("Enter miles: ");
                     double miles = scanner.nextDouble();
                     System.out.println(miles + " miles = " + milesToKilometers(miles) + " kilometers");
                     break;
                 case 8:
+                    // Kilometers to Miles conversion
                     System.out.print("Enter kilometers: ");
                     double kilometers = scanner.nextDouble();
                     System.out.println(kilometers + " kilometers = " + kilometersToMiles(kilometers) + " miles");
                     break;
                 case 9:
+                    // Exit the program
                     System.out.println("Exiting the program.");
                     break;
                 default:
+                    // Handle invalid menu choices
                     System.out.println("Invalid choice. Please choose again.");
             }
 
-            System.out.println();
+            System.out.println(); // Print a blank line for readability
 
-        } while (choice != 9);
+        } while (choice != 9); // Continue until the user chooses to exit
 
-        scanner.close();
+        scanner.close(); // Close the scanner to prevent resource leaks
     }
 
     // Conversion methods
 
+    // Converts inches to centimeters
     public static double inchesToCentimeters(double inches) {
         return inches * 2.54;
     }
 
+    // Converts centimeters to inches
     public static double centimetersToInches(double centimeters) {
         return centimeters / 2.54;
     }
 
+    // Converts feet to centimeters
     public static double feetToCentimeters(double feet) {
         return feet * 30.48;
     }
 
+    // Converts centimeters to feet
     public static double centimetersToFeet(double centimeters) {
         return centimeters / 30.48;
     }
 
+    // Converts yards to meters
     public static double yardsToMeters(double yards) {
         return yards * 0.9144;
     }
 
+    // Converts meters to yards
     public static double metersToYards(double meters) {
         return meters / 0.9144;
     }
 
+    // Converts miles to kilometers
     public static double milesToKilometers(double miles) {
         return miles * 1.60934;
     }
 
+    // Converts kilometers to miles
     public static double kilometersToMiles(double kilometers) {
         return kilometers / 1.60934;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
