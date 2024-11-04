@@ -43,7 +43,7 @@ public class MetricConversion {
                     double cmToInches = scanner.nextDouble();
                     System.out.println(cmToInches + " centimeters = " + centimetersToInches(cmToInches) + " inches");
                     break;
-                case 3:A
+                case 3:
                     // Feet to Centimeters conversion
                     System.out.print("Enter feet: ");
                     double feet = scanner.nextDouble();
