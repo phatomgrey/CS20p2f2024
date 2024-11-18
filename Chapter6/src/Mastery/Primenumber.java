@@ -1,3 +1,16 @@
+
+/*
+
+Program: Primenumber.java          Last Date of this Revision: November 18, 224
+
+Purpose: An application that gets the prime number in between two digits
+
+Author: Ahamid Adam
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
 package Mastery;
 
 import java.util.Scanner;

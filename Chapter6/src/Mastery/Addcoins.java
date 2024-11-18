@@ -1,8 +1,8 @@
 /*
-Ahamid Adam
+
 Program: Addcoins_Mastery.java          Date: October 29, 2024
 
-
+Author: Ahamid Adam
 Purpose: An application that takes a amount of coins and gets a dollar amount.
 
 
@@ -10,8 +10,6 @@ School: CHHS
 Course: Computer Science 20
 
 */
-
-
 
 
 package Mastery;

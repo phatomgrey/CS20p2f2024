@@ -1,5 +1,16 @@
 
+/*
 
+Program: Primenumber.java          Last Date of this Revision: November 18, 224
+
+Purpose: An application that lets the user converts units of measurement 
+
+Author: Ahamid Adam
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
 
 
 
