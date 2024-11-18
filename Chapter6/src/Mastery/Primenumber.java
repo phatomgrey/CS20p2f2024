@@ -39,3 +39,27 @@ public class Primenumber {
         return true; // If no divisors found, it's prime
     }
 }
+
+
+
+
+/* Screen Dump
+
+Enter the first number: 21
+Enter the second number: 69
+Prime numbers between 21 and 69:
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+
+
+
+*/

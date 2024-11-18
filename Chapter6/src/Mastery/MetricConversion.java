@@ -140,7 +140,36 @@ public class MetricConversion {
 
 
 
+/* Screen Dump
 
+Metric Conversion Menu:
+1. Inches to Centimeters
+2. Centimeters to Inches
+3. Feet to Centimeters
+4. Centimeters to Feet
+5. Yards to Meters
+6. Meters to Yards
+7. Miles to Kilometers
+8. Kilometers to Miles
+9. Exit
+Choose an option (1-9): 2
+Enter centimeters: 31
+31.0 centimeters = 12.204724409448819 inches
+
+Metric Conversion Menu:
+1. Inches to Centimeters
+2. Centimeters to Inches
+3. Feet to Centimeters
+4. Centimeters to Feet
+5. Yards to Meters
+6. Meters to Yards
+7. Miles to Kilometers
+8. Kilometers to Miles
+9. Exit
+Choose an option (1-9): 9
+Exiting the program.
+
+*/
 
 
 
