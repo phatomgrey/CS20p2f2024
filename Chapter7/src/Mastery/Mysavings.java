@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 
 public class Mysavings {
 
+		@SuppressWarnings("resource")
 		public static <piggyBank> void main(String[] args) {
 			//links piggybank to mysavings
 			piggybank pb = new piggybank();

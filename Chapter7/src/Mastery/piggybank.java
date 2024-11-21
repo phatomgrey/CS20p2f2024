@@ -1,5 +1,6 @@
 package Mastery;
 import java.util.Scanner;
+@SuppressWarnings("unused")
 public class piggybank {
 	private int pen;
 	private int nic;
