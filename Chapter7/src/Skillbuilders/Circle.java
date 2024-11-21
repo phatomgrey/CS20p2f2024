@@ -1,101 +1,58 @@
 package Skillbuilders;
 
-
-/**
- * Circle class.
- */
 public class Circle {
-    private static final double PI = 3.14;
     private double radius;
-
-    /**
-     * Default constructor
-     * pre: none
-     * post: A Circle object created. Radius initialized to 1.
-     */
+    private static final double PI = 3.14; // Using 'final' for constants
+    
+    // Default constructor
     public Circle() {
-        radius = 1; // default radius
+        this.radius = 1;
     }
-
-    /**S
-     * Overloaded constructor that accepts a radius.
-     * pre: none
-     * post: A Circle object created with the specified radius.
-     */
-    public Circle(double newRadius) {
-        radius = newRadius;
+    
+    // Overloaded constructor
+    public Circle(double radius) {
+        this.radius = radius;
     }
-
-    /**
-     * Changes the radius of the circle.
-     * pre: none
-     * post: Radius has been changed.
-     */
-    public void setRadius(double newRadius) {
-        radius = newRadius;
+    
+    // Setter for radius
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
-
-    /**
-     * Calculates the area of the circle.
-     * pre: none
-     * post: The area of the circle has been returned.
-     */
-    public double area() {
-        return PI * radius * radius;
-    }
-
-    /**
-     * Returns the radius of the circle.
-     * pre: none
-     * post: The radius of the circle has been returned.
-     */
+    
+    // Getter for radius
     public double getRadius() {
         return radius;
     }
-
-    /**
-     * Calculates the circumference of the circle.
-     * pre: none
-     * post: The circumference of the circle has been returned.
-     */
+    
+    // Method to calculate area
+    public double area() {
+        return PI * radius * radius;
+    }
+    
+    // Method to calculate circumference
     public double circumference() {
         return 2 * PI * radius;
     }
-
-    /**
-     * Class method that displays the formula for the area of a circle.
-     * pre: none
-     * post: Displays the area formula.
-     */
+    
+    // Static method to display the area formula
     public static void displayAreaFormula() {
-        System.out.println("The formula for the area of a circle is: π * r^2");
+        System.out.println("The formula for the area of a circle is: A = πr²");
     }
-
-    /**
-     * Overrides the equals() method to compare two Circle objects.
-     * pre: none
-     * post: Returns true if the radii are equal; false otherwise.
-     */
+    
+    // Equals method to compare two circles based on radius
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
-            return true; // If both references point to the same object
+        if (obj instanceof Circle) {
+            Circle other = (Circle) obj;
+            return this.radius == other.radius;
         }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false; // If the object is null or not a Circle
-        }
-        Circle otherCircle = (Circle) obj;
-        return Double.compare(radius, otherCircle.radius) == 0;
+        return false;
     }
-
-    /**
-     * Overrides the toString() method to provide a string representation of the Circle.
-     * pre: none
-     * post: A string describing the Circle has been returned.
-     */
+    
+    // toString method to represent the circle as a string
     @Override
     public String toString() {
-        return "Circle [Radius: " + radius + ", Area: " + area() + ", Circumference: " + circumference() + "]";
+        return "Circle has radius " + radius;
     }
 }
 
