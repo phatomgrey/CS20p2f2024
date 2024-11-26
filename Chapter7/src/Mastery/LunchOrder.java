@@ -33,7 +33,7 @@ public class LunchOrder {
                             (frenchFries.getPrice() * frenchFriesCount) +
                             (soda.getPrice() * sodaCount);
 
-        // Separate nutritional calculations
+        // Separate nutritional calculationsA
         int hamburgerFat = hamburger.getFat() * hamburgerCount;
         int hamburgerCarbs = hamburger.getCarbs() * hamburgerCount;
         int hamburgerFiber = hamburger.getFiber() * hamburgerCount;

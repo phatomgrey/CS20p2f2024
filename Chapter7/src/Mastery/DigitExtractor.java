@@ -7,7 +7,7 @@ public class DigitExtractor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for an integer
+        // Prompt the user for an integerA
         System.out.print("Enter an integer: ");
         int userInput = scanner.nextInt();
 
