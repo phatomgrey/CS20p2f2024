@@ -1,3 +1,18 @@
+/*
+
+Program: Mysavings_Mastery.java          Date: November 28, 2024
+
+Author: Ahamid Adam
+Purpose: An application that Lets you add money to a account and take money out.
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
+
 package Mastery;
 
 import java.util.Scanner;

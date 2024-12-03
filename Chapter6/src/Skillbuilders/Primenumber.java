@@ -1,7 +1,7 @@
 
 /*
 
-Program: Primenumber.java          Last Date of this Revision: November 18, 224
+Program Primenumber.java          Last Date of this Revision: November 18, 224
 
 Purpose: An application that gets the prime number in between two digits
 
@@ -11,7 +11,7 @@ Course: Computer Programming 20
  
 
 */
-package Mastery;
+package Skillbuilders;
 
 import java.util.Scanner;
 

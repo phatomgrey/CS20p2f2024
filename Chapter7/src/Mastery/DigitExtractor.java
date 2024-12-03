@@ -1,3 +1,17 @@
+/*
+
+Program: DigitExtractor_Mastery.java          Date: November 28, 2024
+
+Author: Ahamid Adam
+Purpose: An application that Lets you see each digit of a number the user inputs
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
 package Mastery;
 
 import java.util.Scanner;

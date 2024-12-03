@@ -1,3 +1,16 @@
+/*
+
+Program: LunchOrder_Mastery.java          Date: November 28, 2024
+
+Author: Ahamid Adam
+Purpose: An application that gets the cost of food as well as the carbs, fiber and fat of the food ordered
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
 package Mastery;
 
 import java.util.Scanner;
