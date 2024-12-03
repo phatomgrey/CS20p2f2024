@@ -96,3 +96,41 @@ public class LunchOrder {
         scanner.close();
     }
 }
+
+/* Screen Dump
+
+Enter the number of hamburgers: 20
+Enter the number of salads: 2
+Enter the number of French fries: 20
+Enter the number of sodas: 5
+
+Order Summary:
+
+Hamburgers:
+  Fat: 180g
+  Carbs: 660g
+  Fiber: 20g
+
+Salads:
+  Fat: 2g
+  Carbs: 22g
+  Fiber: 10g
+
+French Fries:
+  Fat: 220g
+  Carbs: 720g
+  Fiber: 80g
+
+Sodas:
+  Fat: 0g
+  Carbs: 190g
+  Fiber: 0g
+
+Total price: $71.75
+Total fat: 402g
+Total carbohydrates: 1592g
+Total fiber: 110g
+
+
+
+*/

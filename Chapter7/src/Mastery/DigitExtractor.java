@@ -68,3 +68,55 @@ public class DigitExtractor {
     }
 }
 
+/* Screen Dump
+
+Enter an integer: 234
+
+Menu:
+1. Show the ones digit
+2. Show the tens digit
+3. Show the hundreds digit
+4. Show the whole number
+0. Quit
+Enter your choice: 1
+Ones digit: 4
+
+Menu:
+1. Show the ones digit
+2. Show the tens digit
+3. Show the hundreds digit
+4. Show the whole number
+0. Quit
+Enter your choice: 2
+Tens digit: 3
+
+Menu:
+1. Show the ones digit
+2. Show the tens digit
+3. Show the hundreds digit
+4. Show the whole number
+0. Quit
+Enter your choice: 3
+Hundreds digit: 2
+
+Menu:
+1. Show the ones digit
+2. Show the tens digit
+3. Show the hundreds digit
+4. Show the whole number
+0. Quit
+Enter your choice: 4
+The whole number is: 234
+
+Menu:
+1. Show the ones digit
+2. Show the tens digit
+3. Show the hundreds digit
+4. Show the whole number
+0. Quit
+Enter your choice: 0
+Exiting the program. Goodbye!
+
+
+
+*/

@@ -104,3 +104,74 @@ public class Mysavings {
 	            
 	            }
 	        }
+
+/* Screen Dump
+
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 1
+Total in bank: $0
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 2
+Added 1 penny
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 3
+Added 1 nickel
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 4
+Added 1 dime
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 5
+Added 1 quarter
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 6
+You took $0.41 out of the bank
+1. Show total in bank
+2. Add a penny
+3. Add a nickel
+4. Add a dime
+5. Add a quarter
+6. Take money out of your bank
+Enter 0 to quit
+Enter your choice: 0
+Quit successful
+
+
+
+
+*/
