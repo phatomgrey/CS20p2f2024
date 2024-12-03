@@ -38,20 +38,20 @@ public class Mysavings {
 	            //Show total in bank when user picks 1
 	                case 1:
 	                	
-	                    //takes user input and applies inchestocm method to it
+	                    //takes user input and applies inches to cm method to it
 	                    System.out.println("Total in bank: $" + deca.format(pb.bankTotal()));
 	                    break;
 	                    
 	                  //Add a penny when user picks 2
 	                case 2:
-	                  //takes user input and applies cmtoinches method to it
+	                  //takes user input and applies cm to inches method to it
 	                	pb.penny(1);
 	                    System.out.println("Added 1 penny");
 	                    break;
 	                    
 	                  //Add a nickel when user picks 3
 	                case 3:
-	                  //takes user input and applies feettocm method to it
+	                  //takes user input and applies feet to cm method to it
 	                	pb.nickel(1);
 	                    System.out.println("Added 1 nickel");
 	                    break;
@@ -59,28 +59,28 @@ public class Mysavings {
 	                  //Add a dime when user picks 4
 	                case 4:
 	                	
-	                  //takes user input and applies cmtofeet method to it
+	                  //takes user input and applies cm to feet method to it
 	                	pb.dime(1);
 	                    System.out.println("Added 1 dime");
 	                    break;
 	                    
 	                  //Add a quarter when user picks 5
 	                case 5:
-	                  //takes user input and applies yardstom method to it
+	                  //takes user input and applies yards to m method to it
 	                	pb.quarter(1);
 	                    System.out.println("Added 1 quarter");
 	                    break;
 	                    
 	                  //Take money out of piggy bank when user picks 6
 	                case 6:
-	                  //takes user input and applies mtoyards  method to it
+	                  //takes user input and applies m to yards  method to it
 	                    System.out.println("You took $" + deca.format(pb.bankTotal()) + " out of the bank" );
 	                    pb.takeOut();
 	                    break;
 	                    
 	                  //runs case 7 when user picks 7
 	                case 0:
-	                  //takes user input and applies miletokm method to it
+	                  //takes user input and applies mile to km method to it
 	                    System.out.println("Quit successful");
 	                    break;
 	            }
