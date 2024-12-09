@@ -1,3 +1,18 @@
+/*
+
+Program: EvensAndOdds_Mastery.java          Date: December 2, 2024
+
+Author: Ahamid Adam
+Purpose: An application that Lets you see how many of 25 numbers are even or odd
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
+
 package Mastery;
 
 import java.util.ArrayList;
@@ -38,3 +53,12 @@ public class EvensAndOdds {
         }
     }
 }
+
+/* Screen Dump
+
+EVEN: 40 82 94 68 64 14 96 70 24 82 18 14 60 58 34 22 
+ODD: 51 1 33 53 93 53 17 5 69 
+
+
+
+*/

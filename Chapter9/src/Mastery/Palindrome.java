@@ -1,3 +1,17 @@
+/*
+
+Program: class Palindrome_Mastery.java          Date: December 6, 2024
+
+Author: Ahamid Adam
+Purpose: An application that Lets you see if a word is a class Palindrome or not.
+
+
+School: CHHS
+Course: Computer Science 20
+
+*/
+
+
 package Mastery;
 
 import java.util.Scanner;
@@ -39,3 +53,16 @@ public class Palindrome {
         return true;
     }
 }
+
+/* Screen Dump
+
+Enter a string to check if it's a palindrome: dad
+"dad" is a palindrome.
+
+
+Enter a string to check if it's a palindrome: ahamid
+"ahamid" is not a palindrome.
+
+
+
+*/
