@@ -1,6 +1,6 @@
 /*
 
-Program: class CourseGrades_Mastery.java          Date: December 6, 2024
+Program: class CourseGrades_Mastery.java          Date: December 9, 2024
 
 Author: Ahamid Adam
 Purpose: An application that Lets you input the test grade of 12 students and see there average
